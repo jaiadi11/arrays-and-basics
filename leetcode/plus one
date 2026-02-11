@@ -1,0 +1,6 @@
+class Solution(object):
+    def plusOne(self, digits):
+        results=int("".join(map(str,digits)))
+        summ=results+1
+        up=[int(digits) for digits in str(summ)]
+        return(up)
